@@ -198,7 +198,7 @@ public class PostUsers extends BaseTest {
         System.out.println(res.getBody().asString());
     }
 
-    @Test
+    @Test(description = "validate post with pojo list object response")
     public void validatePostWithPOJOListObjectResponse() {
         String name= "Bangalore";
         String temperature ="30";
