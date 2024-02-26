@@ -114,7 +114,7 @@ public class PostUsers extends BaseTest {
 
     @Test
     public void validatePostWithPOJOList() {
-        ExtentReport.extentLog = ExtentReport.extentReports.startTest("validatePostWithPOJOList", "To Test the Post functionality with POJO List");
+        ExtentReport.extentLog = ExtentReport.extentReports.startTest("validatePostWithPOJOLists", "To Test the Post functionality with POJO List");
         List<String> listLanguage = new ArrayList<>();
         listLanguage.add("java");
         listLanguage.add("python");
