@@ -112,7 +112,7 @@ public class PostUsers extends BaseTest {
         System.out.println(res.getBody().asString());
     }
 
-    @Test
+    @Test(description = "validatePostWithPOJOList")
     public void validatePostWithPOJOList() {
         ExtentReport.extentLog = ExtentReport.extentReports.startTest("validatePostWithPOJOLists", "To Test the Post functionality with POJO List");
         List<String> listLanguage = new ArrayList<>();
